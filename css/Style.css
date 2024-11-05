@@ -1,0 +1,563 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --primary:#5956E8;
+    --white:#ffffff;
+    --black:#111111;
+    --border_color:#E3E3E3;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+
+.container{
+    max-width: 1170px;
+}
+.font-size{
+    font-size: 18px;
+    font-weight: 500;
+   }
+
+
+/* ========================================
+            Common Class Start
+ ============================================ */
+
+     #bg_color{
+        background: var(--primary);
+        padding: 182px 0;
+    }
+    section{
+        padding-top: 100px;
+    } 
+    .common_btn{
+        color: var(--primary);
+        font-size: 18px;
+        font-weight: 500;
+        border: 1px solid var(--primary) ;
+        transition: all linear .4s;
+    }
+    .common_btn:hover{
+        background: var(--primary);
+        color: var(--white);
+
+    }
+   
+    h1{
+        font-size: 65px;
+        line-height: 80px;
+        font-weight: 800;
+        color: var(--white);
+    }
+    h2{
+        font-size: 40px;
+        font-weight: 700;
+        color: var(--black);
+    }
+    h3{
+        font-size: 25px;
+        font-weight: 700;
+        color: var(--black);
+    }
+    h4{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 27px;
+    }
+    p{
+        font-size: 16px;
+        line-height: 27px;
+        font-weight: 400;
+    }
+    a{
+        text-decoration: none;
+    }
+/* ========================================
+             Common Class End
+    ============================================ */
+
+
+/* ========================================
+              Bennar Section Start
+     ============================================ */
+    .btn_bennar{
+        color: var(--white);
+        max-width: 144px;
+        border: 1px solid var(--white);
+        transition: all linear .4s;
+    }
+    .btn_bennar:hover{
+        background: var(--white);
+        color: var(--primary);
+    }
+    .left_side p{
+        color: var(--white);
+        padding: 30px 0;
+    }
+/* ========================================
+             Bennar Section End
+============================================ */
+
+/* ========================================
+              Our Services Section Start
+   ============================================ */
+   #service .text_header{
+    width: 542px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 50px;
+   }
+   #service .service_items h3{
+    padding-top:30px ;
+    padding-bottom: 20px;
+   }
+   #service .text_header p{
+    padding-top: 20px;
+   }
+   #service .service_items{
+    padding: 63px 48px;
+    border: .5px solid var(--border_color);
+    border-radius: 10px;
+    background: var(--white);
+    margin-bottom: 24px;
+    transition: all linear .4s;
+    cursor: pointer;
+   }
+   #service .service_items:hover{
+    box-shadow: 0 6px 35px 0 rgba(0, 0, 0, 0.08);
+   }
+   #service .service_items .icon{
+    border: .5px solid var(--primary);
+    padding: 17px;
+    width: 71px;
+    height: 71px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all linear .3s;
+    background: var(--white);
+   }
+   #service .service_items:hover .icon {
+    background: var(--primary);
+   }
+   #service .service_items:hover .icon svg path{
+    fill: var(--white);
+   }
+/* ========================================
+              Our Services Section End
+   ============================================ */
+
+
+/* ========================================
+              Portfolio Section Start
+   ============================================ */
+   #portfolio .portfolio_contain{
+    width: 542px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 30px;
+   }
+   #portfolio .portfolio_contain p{
+    padding-top: 20px;
+   }
+   .nav-tabs{
+    border: none;
+   }
+   .portfolio_contain-manu{
+    text-align: center;
+   }
+   .portfolio_tabs{
+    background: rgba(89, 86, 232, 0.05);
+    display: inline-flex;
+    padding: 23px 28px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+   }
+   .portfolio_tabs li.nav-item{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--black);
+   }
+   .portfolio_tabs li.nav-item .nav-link{
+    background: transparent;
+    color: var(--black);
+    border: none;
+   }
+   .portfolio_tabs li.nav-item .nav-link.active{
+    background: transparent;
+    color: var(--primary);
+    border: none;
+    position: relative;
+   }
+   .portfolio_tabs li.nav-item .nav-link.active::after{
+    position: absolute;
+    content: "";
+    height: 4px;
+    width: 88%;
+    top: -20px;
+    left: 10px;
+    background: var(--primary);
+   }
+   .portfolio_items {
+    position: relative;
+    border-radius: 10px;
+    /* width: 100%;
+    height: 100%; */
+    width: 270px;
+    height: 319px;
+    overflow: hidden;
+    margin-bottom: 24px;
+    cursor: pointer;
+   }  
+   .portfolio_items img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   }  
+
+   .portfolio_items .portfolio_info {
+    padding:25px 40px ;
+    background: var(--primary);
+    color: var(--white);
+    border-radius: 10px;
+    position: absolute;
+    width: calc(100% - 40px);
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear .5s;
+    }  
+.portfolio_items:hover .portfolio_info{
+    opacity: 1;
+    visibility: visible;
+    margin-bottom: 20px;
+   }  
+   .portfolio_items .portfolio_info h4{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    padding-bottom: 10px;
+   }  
+   .portfolio_items .portfolio_info p{
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 400;
+   }  
+/* ========================================
+             Portfolio Section End
+   ============================================ */
+
+
+/* ========================================
+           Team Member Section Start
+   ============================================ */
+#our_expert_team_member .team_member_contain {
+    width: 542px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+   }
+#our_expert_team_member .team_member_contain h2 {
+    text-align: center;
+    padding-bottom: 20px;
+   }
+#our_expert_team_member .team_member_contain p {
+    text-align: center;
+   }
+.team_member_img:hover img{
+       transform: scale(1.2); 
+    }
+.team_member_img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* width: 275px;
+    height: 400px; */
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    }
+.team_member_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all linear .4s;
+    }
+.team_member_img .overly {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+    left: 0;
+	z-index: 10;
+	background: linear-gradient(#fff0 60%, #5956e88e 85%);
+}
+.team_member_img .overly{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    color: var(--white);
+}
+.team_item .slider .bg_color{
+    width: 30px;
+    height: 30px;
+    background: var(--primary);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white); cursor: pointer;
+}
+.team_item{
+    position: relative;
+}
+.team_item .slider .left_slider{
+    position: absolute;
+    top: 50%;
+    left: -35px;
+    z-index: 10;
+    transform: translateY(-50%) ;
+}
+.team_item .slider .right_side{
+    position: absolute;
+    top: 50%;
+    right:-40px;
+    z-index: 10;
+    transform: translateY(-50%) ;
+}
+.dot{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    
+}
+.dot li{
+    width: 12px;
+    height: 12px;
+    background: #E6E6E6;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.dot .active{
+    background: var(--primary);
+}
+/* ========================================
+             Team Member Section End
+   ============================================ */
+
+/* ==========================================
+        Our Customer Review Section Start
+   ============================================ */
+.our_customer_review{
+    width: 603px;
+    padding-bottom: 50px;
+}
+.our_customer_review h2{
+    width: 603px;
+    padding-bottom: 20px;
+}
+.review_items {
+    background: var(--white);
+    padding: 28px;
+    box-shadow: 0 6px 35px 0 rgba(17, 17, 17, 0.08);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 24px;
+    position: relative;
+}
+.review_items .quot{
+    position: absolute;
+    bottom: 14px;
+    right: 14px;
+}
+.review_items .quot img{
+    width: 45px;
+    height: 36px;
+    object-fit: cover;
+}
+.review_items > img {
+    width: 83px;
+    height: 83px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.review_items .star{
+    color:#FBBF25;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+.review_items p{
+    padding-bottom: 15px;
+}
+.review_contain .bg_color{
+    width: 30px;
+    height: 30px;
+    background: var(--primary);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white); cursor: pointer;
+}
+.review_contain{
+    position: relative;
+}
+.review_contain .slider .left_slider{
+    position: absolute;
+    top: 50%;
+    left: -35px;
+    z-index: 10;
+    transform: translateY(-50%) ;
+}
+.review_contain .slider .right_side{
+    position: absolute;
+    top: 50%;
+    right:-40px;
+    z-index: 10;
+    transform: translateY(-50%) ;
+}
+.dot_slider{
+    padding-top: 30px;
+}
+.dot_slider .dot{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    
+}
+.dot_slider .dot li{
+    width: 12px;
+    height: 12px;
+    background: #E6E6E6;
+    border-radius: 50%;
+}
+.dot_slider .dot .active{
+    background: var(--primary);
+}
+/* ===========================================
+     Our Customer Review Section End
+   ============================================ */
+
+
+/* ===========================================
+           Our Letest News Section Start   
+============================================ */
+#our_letest_news{
+    margin-bottom: 100px;
+}
+.letest_news {
+    width: 542px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.letest_news h2{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.letest_news p {
+    text-align: center;
+}
+.letest_contain{
+    padding: 17px 19px 46px 19px; 
+    border: 1px solid var(--border_color);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+.letest_contain img{
+    width: 100%;
+    height: 100%;
+    /* width: 332px;
+    height: 198px; */
+    object-fit: cover;
+    border-radius: 10px;
+    padding-bottom: 19px;
+}
+.letest_contain .user{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 10px;
+}
+.letest_contain .user .left{
+    padding-left: 5px;
+}
+.letest_contain h4{
+    width: 271px;
+    padding-bottom: 15px;
+}
+.letest_contain p{
+    width: 300px;
+    padding-bottom: 10px;
+}
+.letest_contain a{
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+/* ===========================================
+     Our Letest News Section End
+============================================ */
+
+/* ===========================================
+         Footer Section Start
+============================================ */
+#footer{
+    padding-top: 100px;
+    padding-bottom: 5px;
+    background: rgba(89, 86, 232, 0.1);
+}
+.footer_item{
+    padding-bottom: 50px;
+    border-bottom: 2px solid var(--primary);
+}
+.footer_info{
+    width: 300px;
+    margin-bottom: 24px;
+}
+.footer_info img{
+    width: 115px;
+    height: 83px;
+    padding-bottom: 15px;
+}
+.footer_info .icon{
+    padding-top: 20px;
+    cursor: pointer;
+}
+.footer_info .icon i {
+    padding-right: 15px;
+    font-size: 20px;
+   
+}
+.info h4{
+    padding-bottom: 15px;
+    padding-left: 30px;
+}
+.info ul{
+    list-style: none;
+}
+.info ul li{
+    margin-bottom: 10px;
+    color: #5D5D5D;
+}
+.info ul li a{
+    font-size: 16px;
+    line-height: 35px;
+    color: #5D5D5D;
+}
+
+/* ===========================================
+          Footer Section End
+============================================ */

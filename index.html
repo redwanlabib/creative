@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Project</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/Style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+
+</head>
+<body>
+    <!-- ========================================
+                     Nav bar Start  
+     ============================================ -->
+
+     <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./Image/Logo.png" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span><i class="fa-solid fa-bars-staggered"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-3 mb-lg-0 gap-5 font-size">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="Contact_us">
+            <button class="btn common_btn">Contact Us</button>
+          </div>
+        </div>
+     </nav>
+
+    <!-- ========================================
+                     Nav bar   End
+     ============================================ -->
+
+
+  <main>
+    <!-- ========================================
+                     Bennar Section Start
+     ============================================ -->
+     <section id="bg_color">
+      <div class="container">
+          <div class="row align-items-center">
+              <div class="col-lg-6 left_side">
+                  <h1>We Are Digital Product Design Agency</h1>
+                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                  <button class="btn btn_bennar">Get Started</button>
+              </div>
+              <div class="col-lg-6 ">
+                  <img class="img-fluid" src="./Image/Bennar_imge.png" alt="image">
+              </div>
+          </div>
+      </div>
+     </section>
+  <!-- ========================================
+                   Bennar Section End
+   ============================================ -->
+
+
+
+  <!-- ========================================
+              Our Services Section Start
+   ============================================ -->
+    <section id="service">
+     <div class="container">
+      <div class="text_header">
+        <h2>Our Services</h2>
+        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+      </div>
+       <div class="row">
+         <div class="col-lg-4 col-md-6">
+          <div class="service_items">
+            <div class="icon">
+              <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.69708 14.9696C9.8404 15.1141 10.0109 15.2288 10.1988 15.307C10.3866 15.3853 10.5882 15.4256 10.7917 15.4256C10.9952 15.4256 11.1967 15.3853 11.3846 15.307C11.5724 15.2288 11.7429 15.1141 11.8863 14.9696C12.0307 14.8263 12.1454 14.6558 12.2237 14.4679C12.302 14.28 12.3423 14.0785 12.3423 13.875C12.3423 13.6715 12.302 13.47 12.2237 13.2821C12.1454 13.0942 12.0307 12.9237 11.8863 12.7804L8.80292 9.69708C8.6563 9.55673 8.48341 9.44671 8.29417 9.37333C7.91883 9.21914 7.49784 9.21914 7.1225 9.37333C6.93326 9.44671 6.76037 9.55673 6.61375 9.69708L3.53042 12.7804C3.24012 13.0707 3.07703 13.4645 3.07703 13.875C3.07703 14.2855 3.24012 14.6793 3.53042 14.9696C3.82072 15.2599 4.21445 15.423 4.625 15.423C5.03555 15.423 5.42928 15.2599 5.71958 14.9696L6.16667 14.5071V22.4929L5.71958 22.0304C5.42928 21.7401 5.03555 21.577 4.625 21.577C4.21445 21.577 3.82072 21.7401 3.53042 22.0304C3.24012 22.3207 3.07703 22.7145 3.07703 23.125C3.07703 23.5355 3.24012 23.9293 3.53042 24.2196L6.61375 27.3029C6.76037 27.4433 6.93326 27.5533 7.1225 27.6267C7.30704 27.7082 7.50658 27.7504 7.70833 27.7504C7.91009 27.7504 8.10963 27.7082 8.29417 27.6267C8.48341 27.5533 8.6563 27.4433 8.80292 27.3029L11.8863 24.2196C12.03 24.0758 12.144 23.9052 12.2218 23.7174C12.2996 23.5296 12.3396 23.3283 12.3396 23.125C12.3396 22.9217 12.2996 22.7204 12.2218 22.5326C12.144 22.3448 12.03 22.1742 11.8863 22.0304C11.7425 21.8867 11.5719 21.7726 11.3841 21.6949C11.1962 21.6171 10.995 21.577 10.7917 21.577C10.5884 21.577 10.3871 21.6171 10.1993 21.6949C10.0115 21.7726 9.84083 21.8867 9.69708 22.0304L9.25 22.4929V14.5071L9.69708 14.9696ZM16.9583 12.3333H32.375C32.7839 12.3333 33.176 12.1709 33.4651 11.8818C33.7542 11.5927 33.9167 11.2005 33.9167 10.7917C33.9167 10.3828 33.7542 9.99066 33.4651 9.70154C33.176 9.41243 32.7839 9.25 32.375 9.25H16.9583C16.5495 9.25 16.1573 9.41243 15.8682 9.70154C15.5791 9.99066 15.4167 10.3828 15.4167 10.7917C15.4167 11.2005 15.5791 11.5927 15.8682 11.8818C16.1573 12.1709 16.5495 12.3333 16.9583 12.3333ZM32.375 16.9583H16.9583C16.5495 16.9583 16.1573 17.1208 15.8682 17.4099C15.5791 17.699 15.4167 18.0911 15.4167 18.5C15.4167 18.9089 15.5791 19.301 15.8682 19.5901C16.1573 19.8792 16.5495 20.0417 16.9583 20.0417H32.375C32.7839 20.0417 33.176 19.8792 33.4651 19.5901C33.7542 19.301 33.9167 18.9089 33.9167 18.5C33.9167 18.0911 33.7542 17.699 33.4651 17.4099C33.176 17.1208 32.7839 16.9583 32.375 16.9583ZM32.375 24.6667H16.9583C16.5495 24.6667 16.1573 24.8291 15.8682 25.1182C15.5791 25.4073 15.4167 25.7995 15.4167 26.2083C15.4167 26.6172 15.5791 27.0093 15.8682 27.2985C16.1573 27.5876 16.5495 27.75 16.9583 27.75H32.375C32.7839 27.75 33.176 27.5876 33.4651 27.2985C33.7542 27.0093 33.9167 26.6172 33.9167 26.2083C33.9167 25.7995 33.7542 25.4073 33.4651 25.1182C33.176 24.8291 32.7839 24.6667 32.375 24.6667Z" fill="#5956E8"/>
+                </svg>
+            </div>
+            <div class="info">
+              <h3>UI/UX Design</h3>
+              <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+            </div>
+          </div>
+         </div>
+         <div class="col-lg-4 col-md-6">
+          <div class="service_items">
+            <div class="icon">
+              <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M29.2917 3.08337C28.8828 3.08337 28.4907 3.2458 28.2015 3.53492C27.9124 3.82404 27.75 4.21617 27.75 4.62504V6.16671H20.0417C19.6328 6.16671 19.2407 6.32913 18.9515 6.61825C18.6624 6.90737 18.5 7.2995 18.5 7.70837V29.2917C18.5 29.7006 18.6624 30.0927 18.9515 30.3818C19.2407 30.671 19.6328 30.8334 20.0417 30.8334H27.75V32.375C27.75 32.7839 27.9124 33.176 28.2015 33.4652C28.4907 33.7543 28.8828 33.9167 29.2917 33.9167C29.7005 33.9167 30.0927 33.7543 30.3818 33.4652C30.6709 33.176 30.8333 32.7839 30.8333 32.375V4.62504C30.8333 4.21617 30.6709 3.82404 30.3818 3.53492C30.0927 3.2458 29.7005 3.08337 29.2917 3.08337ZM27.75 27.75H21.5833V9.25004H27.75V27.75ZM13.875 3.08337C13.4661 3.08337 13.074 3.2458 12.7849 3.53492C12.4958 3.82404 12.3333 4.21617 12.3333 4.62504V7.70837H7.70833C7.29946 7.70837 6.90733 7.8708 6.61821 8.15992C6.32909 8.44904 6.16666 8.84117 6.16666 9.25004V27.75C6.16666 28.1589 6.32909 28.551 6.61821 28.8402C6.90733 29.1293 7.29946 29.2917 7.70833 29.2917H12.3333V32.375C12.3333 32.7839 12.4958 33.176 12.7849 33.4652C13.074 33.7543 13.4661 33.9167 13.875 33.9167C14.2839 33.9167 14.676 33.7543 14.9651 33.4652C15.2542 33.176 15.4167 32.7839 15.4167 32.375V4.62504C15.4167 4.21617 15.2542 3.82404 14.9651 3.53492C14.676 3.2458 14.2839 3.08337 13.875 3.08337ZM12.3333 26.2084H9.25V10.7917H12.3333V26.2084Z" fill="#5956E8"/>
+                </svg>
+                
+            </div>
+            <div class="info">
+              <h3>Web Development</h3>
+              <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+            </div>
+          </div>
+         </div>
+         <div class="col-lg-4 col-md-6">
+          <div class="service_items">
+            <div class="icon">
+              <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.6108 6.16671H15.8483C16.2572 6.16671 16.6493 6.00428 16.9385 5.71516C17.2276 5.42605 17.39 5.03392 17.39 4.62504C17.39 4.21617 17.2276 3.82404 16.9385 3.53492C16.6493 3.2458 16.2572 3.08337 15.8483 3.08337H12.6108C12.202 3.08337 11.8098 3.2458 11.5207 3.53492C11.2316 3.82404 11.0692 4.21617 11.0692 4.62504C11.0692 5.03392 11.2316 5.42605 11.5207 5.71516C11.8098 6.00428 12.202 6.16671 12.6108 6.16671ZM4.62501 17.39C5.03389 17.39 5.42601 17.2276 5.71513 16.9385C6.00425 16.6494 6.16668 16.2572 6.16668 15.8484V12.6109C6.16668 12.202 6.00425 11.8099 5.71513 11.5208C5.42601 11.2316 5.03389 11.0692 4.62501 11.0692C4.21613 11.0692 3.82401 11.2316 3.53489 11.5208C3.24577 11.8099 3.08334 12.202 3.08334 12.6109V15.8484C3.08334 16.2572 3.24577 16.6494 3.53489 16.9385C3.82401 17.2276 4.21613 17.39 4.62501 17.39ZM22.2925 6.16671C22.2925 6.57558 22.4549 6.96771 22.7441 7.25683C23.0332 7.54595 23.4253 7.70837 23.8342 7.70837C24.2431 7.70837 24.6352 7.54595 24.9243 7.25683C25.2134 6.96771 25.3758 6.57558 25.3758 6.16671V4.62504C25.3758 4.21617 25.2134 3.82404 24.9243 3.53492C24.6352 3.2458 24.2431 3.08337 23.8342 3.08337H22.2925C21.8836 3.08337 21.4915 3.2458 21.2024 3.53492C20.9133 3.82404 20.7508 4.21617 20.7508 4.62504C20.7508 5.03392 20.9133 5.42605 21.2024 5.71516C21.4915 6.00428 21.8836 6.16671 22.2925 6.16671ZM32.375 11.6242H25.3758C25.3758 11.2153 25.2134 10.8232 24.9243 10.5341C24.6352 10.245 24.2431 10.0825 23.8342 10.0825C23.4253 10.0825 23.0332 10.245 22.7441 10.5341C22.4549 10.8232 22.2925 11.2153 22.2925 11.6242H13.1658C12.757 11.6242 12.3648 11.7866 12.0757 12.0758C11.7866 12.3649 11.6242 12.757 11.6242 13.1659V22.2925C11.2153 22.2925 10.8232 22.455 10.5341 22.7441C10.2449 23.0332 10.0825 23.4253 10.0825 23.8342C10.0825 24.2431 10.2449 24.6352 10.5341 24.9243C10.8232 25.2134 11.2153 25.3759 11.6242 25.3759V32.375C11.6242 32.7839 11.7866 33.176 12.0757 33.4652C12.3648 33.7543 12.757 33.9167 13.1658 33.9167H32.375C32.7839 33.9167 33.176 33.7543 33.4651 33.4652C33.7543 33.176 33.9167 32.7839 33.9167 32.375V13.1659C33.9167 12.757 33.7543 12.3649 33.4651 12.0758C33.176 11.7866 32.7839 11.6242 32.375 11.6242ZM30.8333 30.8334H14.7075V23.8496V14.7075H30.8333V30.8334ZM6.16668 3.08337H4.62501C4.21613 3.08337 3.82401 3.2458 3.53489 3.53492C3.24577 3.82404 3.08334 4.21617 3.08334 4.62504V6.16671C3.08334 6.57558 3.24577 6.96771 3.53489 7.25683C3.82401 7.54595 4.21613 7.70837 4.62501 7.70837C5.03389 7.70837 5.42601 7.54595 5.71513 7.25683C6.00425 6.96771 6.16668 6.57558 6.16668 6.16671C6.57555 6.16671 6.96768 6.00428 7.2568 5.71516C7.54592 5.42605 7.70834 5.03392 7.70834 4.62504C7.70834 4.21617 7.54592 3.82404 7.2568 3.53492C6.96768 3.2458 6.57555 3.08337 6.16668 3.08337ZM6.16668 22.2925C6.16668 21.8837 6.00425 21.4915 5.71513 21.2024C5.42601 20.9133 5.03389 20.7509 4.62501 20.7509C4.21613 20.7509 3.82401 20.9133 3.53489 21.2024C3.24577 21.4915 3.08334 21.8837 3.08334 22.2925V23.8342C3.08334 24.2431 3.24577 24.6352 3.53489 24.9243C3.82401 25.2134 4.21613 25.3759 4.62501 25.3759H6.16668C6.57555 25.3759 6.96768 25.2134 7.2568 24.9243C7.54592 24.6352 7.70834 24.2431 7.70834 23.8342C7.70834 23.4253 7.54592 23.0332 7.2568 22.7441C6.96768 22.455 6.57555 22.2925 6.16668 22.2925Z" fill="#5956E8"/>
+                </svg>                
+            </div>
+            <div class="info">
+              <h3>Digital Marketing</h3>
+              <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+            </div>
+          </div>
+         </div>
+         <div class="col-lg-4 col-md-6">
+          <div class="service_items">
+            <div class="icon">
+              <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M32.375 28.1816V18.0683C32.792 17.8364 33.1494 17.5109 33.4192 17.1174C33.689 16.7239 33.8638 16.2731 33.9299 15.8006C33.9959 15.3281 33.9514 14.8467 33.7999 14.3943C33.6483 13.9419 33.3938 13.5309 33.0565 13.1935C32.7191 12.8561 32.3081 12.6017 31.8557 12.4501C31.4033 12.2985 30.9219 12.254 30.4494 12.3201C29.9768 12.3862 29.5261 12.561 29.1326 12.8308C28.7391 13.1006 28.4136 13.458 28.1817 13.875H23.125V8.81829C23.542 8.58637 23.8994 8.26085 24.1692 7.86736C24.439 7.47387 24.6138 7.02313 24.6799 6.55062C24.7459 6.0781 24.7014 5.59671 24.5499 5.14431C24.3983 4.69191 24.1438 4.28086 23.8065 3.94349C23.4691 3.60613 23.0581 3.35165 22.6057 3.2001C22.1533 3.04855 21.6719 3.00404 21.1994 3.0701C20.7268 3.13615 20.2761 3.31096 19.8826 3.58076C19.4891 3.85057 19.1636 4.20801 18.9317 4.62495H8.81835C8.58643 4.20801 8.26091 3.85057 7.86742 3.58076C7.47393 3.31096 7.02319 3.13615 6.55068 3.0701C6.07816 3.00404 5.59677 3.04855 5.14437 3.2001C4.69197 3.35165 4.28092 3.60613 3.94355 3.94349C3.60619 4.28086 3.35172 4.69191 3.20016 5.14431C3.04861 5.59671 3.00411 6.0781 3.07016 6.55062C3.13621 7.02313 3.31102 7.47387 3.58082 7.86736C3.85063 8.26085 4.20807 8.58637 4.62501 8.81829V18.9316C4.20807 19.1635 3.85063 19.4891 3.58082 19.8825C3.31102 20.276 3.13621 20.7268 3.07016 21.1993C3.00411 21.6718 3.04861 22.1532 3.20016 22.6056C3.35172 23.058 3.60619 23.469 3.94355 23.8064C4.28092 24.1438 4.69197 24.3983 5.14437 24.5498C5.59677 24.7014 6.07816 24.7459 6.55068 24.6798C7.02319 24.6138 7.47393 24.4389 7.86742 24.1691C8.26091 23.8993 8.58643 23.5419 8.81835 23.125H13.875V28.1816C13.4581 28.4135 13.1006 28.7391 12.8308 29.1325C12.561 29.526 12.3862 29.9768 12.3202 30.4493C12.2541 30.9218 12.2986 31.4032 12.4502 31.8556C12.6017 32.308 12.8562 32.719 13.1936 33.0564C13.5309 33.3938 13.942 33.6483 14.3944 33.7998C14.8468 33.9514 15.3282 33.9959 15.8007 33.9298C16.2732 33.8638 16.7239 33.6889 17.1174 33.4191C17.5109 33.1493 17.8364 32.7919 18.0683 32.375H28.1817C28.4136 32.7919 28.7391 33.1493 29.1326 33.4191C29.5261 33.6889 29.9768 33.8638 30.4494 33.9298C30.9219 33.9959 31.4033 33.9514 31.8557 33.7998C32.3081 33.6483 32.7191 33.3938 33.0565 33.0564C33.3938 32.719 33.6483 32.308 33.7999 31.8556C33.9514 31.4032 33.9959 30.9218 33.9299 30.4493C33.8638 29.9768 33.689 29.526 33.4192 29.1325C33.1494 28.7391 32.792 28.4135 32.375 28.1816ZM12.3333 15.4166C12.3366 15.9547 12.4806 16.4826 12.7511 16.9478C13.0215 17.4129 13.409 17.7993 13.875 18.0683V20.0416H8.81835C8.55561 19.578 8.17197 19.1944 7.70835 18.9316V8.81829C8.17197 8.55554 8.55561 8.17191 8.81835 7.70829H18.9317C19.1944 8.17191 19.5781 8.55554 20.0417 8.81829V13.875H18.0683C17.725 13.2962 17.2018 12.8457 16.5784 12.5921C15.9551 12.3385 15.2659 12.2958 14.6161 12.4705C13.9662 12.6452 13.3914 13.0277 12.9792 13.5596C12.567 14.0915 12.3402 14.7437 12.3333 15.4166ZM20.0417 16.9583V18.9316C19.5781 19.1944 19.1944 19.578 18.9317 20.0416H16.9583V18.0683C17.422 17.8055 17.8056 17.4219 18.0683 16.9583H20.0417ZM29.2917 28.1816C28.8281 28.4444 28.4444 28.828 28.1817 29.2916H18.0683C17.8056 28.828 17.422 28.4444 16.9583 28.1816V23.125H18.9317C19.1636 23.5419 19.4891 23.8993 19.8826 24.1691C20.2761 24.4389 20.7268 24.6138 21.1994 24.6798C21.6719 24.7459 22.1533 24.7014 22.6057 24.5498C23.0581 24.3983 23.4691 24.1438 23.8065 23.8064C24.1438 23.469 24.3983 23.058 24.5499 22.6056C24.7014 22.1532 24.7459 21.6718 24.6799 21.1993C24.6138 20.7268 24.439 20.276 24.1692 19.8825C23.8994 19.4891 23.542 19.1635 23.125 18.9316V16.9583H28.1817C28.4444 17.4219 28.8281 17.8055 29.2917 18.0683V28.1816Z" fill="#5956E8"/>
+                </svg>
+            </div>
+            <div class="info">
+              <h3>Graphic Design</h3>
+              <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+            </div>
+          </div>
+         </div>
+         <div class="col-lg-4 col-md-6">
+          <div class="service_items">
+            <div class="icon">
+              <svg width="38" height="37" viewBox="0 0 38 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M25.3333 15.4166H22.1667V12.3333C22.1667 11.9244 21.9999 11.5323 21.7029 11.2432C21.406 10.954 21.0033 10.7916 20.5833 10.7916H12.6667C12.2467 10.7916 11.844 10.954 11.5471 11.2432C11.2501 11.5323 11.0833 11.9244 11.0833 12.3333V20.0416C11.0833 20.4505 11.2501 20.8426 11.5471 21.1317C11.844 21.4209 12.2467 21.5833 12.6667 21.5833H15.8333V24.6666C15.8333 25.0755 16.0001 25.4676 16.2971 25.7567C16.594 26.0459 16.9967 26.2083 17.4167 26.2083H25.3333C25.7533 26.2083 26.156 26.0459 26.4529 25.7567C26.7499 25.4676 26.9167 25.0755 26.9167 24.6666V16.9583C26.9167 16.5494 26.7499 16.1573 26.4529 15.8682C26.156 15.579 25.7533 15.4166 25.3333 15.4166ZM15.8333 16.9583V18.5H14.25V13.875H19V15.4166H17.4167C16.9967 15.4166 16.594 15.579 16.2971 15.8682C16.0001 16.1573 15.8333 16.5494 15.8333 16.9583ZM23.75 23.125H19V18.5H23.75V23.125ZM33.25 28.1816V8.81829C33.6782 8.58637 34.0453 8.26085 34.3224 7.86736C34.5995 7.47387 34.779 7.02313 34.8469 6.55062C34.9147 6.0781 34.869 5.59671 34.7134 5.14431C34.5577 4.69191 34.2964 4.28086 33.9499 3.94349C33.6034 3.60613 33.1812 3.35165 32.7166 3.2001C32.252 3.04855 31.7576 3.00404 31.2723 3.0701C30.787 3.13615 30.3241 3.31096 29.92 3.58076C29.5158 3.85057 29.1815 4.20801 28.9433 4.62495H9.05667C8.81848 4.20801 8.48417 3.85057 8.08004 3.58076C7.67591 3.31096 7.21299 3.13615 6.72771 3.0701C6.24242 3.00404 5.74802 3.04855 5.28339 3.2001C4.81877 3.35165 4.39661 3.60613 4.05012 3.94349C3.70364 4.28086 3.44229 4.69191 3.28664 5.14431C3.13099 5.59671 3.08528 6.0781 3.15312 6.55062C3.22096 7.02313 3.40049 7.47387 3.67759 7.86736C3.95468 8.26085 4.32178 8.58637 4.75 8.81829V28.1816C4.32178 28.4135 3.95468 28.7391 3.67759 29.1325C3.40049 29.526 3.22096 29.9768 3.15312 30.4493C3.08528 30.9218 3.13099 31.4032 3.28664 31.8556C3.44229 32.308 3.70364 32.719 4.05012 33.0564C4.39661 33.3938 4.81877 33.6483 5.28339 33.7998C5.74802 33.9514 6.24242 33.9959 6.72771 33.9298C7.21299 33.8638 7.67591 33.6889 8.08004 33.4191C8.48417 33.1493 8.81848 32.7919 9.05667 32.375H28.9433C29.1815 32.7919 29.5158 33.1493 29.92 33.4191C30.3241 33.6889 30.787 33.8638 31.2723 33.9298C31.7576 33.9959 32.252 33.9514 32.7166 33.7998C33.1812 33.6483 33.6034 33.3938 33.9499 33.0564C34.2964 32.719 34.5577 32.308 34.7134 31.8556C34.869 31.4032 34.9147 30.9218 34.8469 30.4493C34.779 29.9768 34.5995 29.526 34.3224 29.1325C34.0453 28.7391 33.6782 28.4135 33.25 28.1816ZM30.0833 28.1816C29.6072 28.4444 29.2132 28.828 28.9433 29.2916H9.05667C8.78682 28.828 8.39282 28.4444 7.91667 28.1816V8.81829C8.39282 8.55554 8.78682 8.17191 9.05667 7.70829H28.9433C29.2132 8.17191 29.6072 8.55554 30.0833 8.81829V28.1816Z" fill="#5956E8"/>
+                </svg>
+            </div>
+            <div class="info">
+              <h3>Web Design</h3>
+              <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+            </div>
+          </div>
+         </div>
+         <div class="col-lg-4 col-md-6">
+          <div class="service_items">
+            <div class="icon">
+              <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M30.8333 24.9442V12.0559C31.5728 11.7982 32.2348 11.3571 32.7572 10.7737C33.2796 10.1903 33.6453 9.48388 33.82 8.72056C33.9948 7.95723 33.9729 7.16203 33.7564 6.40949C33.5398 5.65695 33.1358 4.9717 32.5821 4.41799C32.0283 3.86427 31.3431 3.46021 30.5906 3.24368C29.838 3.02715 29.0428 3.00524 28.2795 3.18001C27.5162 3.35477 26.8097 3.72049 26.2264 4.24288C25.643 4.76527 25.2018 5.42723 24.9442 6.16671H12.0558C11.7982 5.42723 11.357 4.76527 10.7737 4.24288C10.1903 3.72049 9.48385 3.35477 8.72052 3.18001C7.9572 3.00524 7.162 3.02715 6.40946 3.24368C5.65692 3.46021 4.97167 3.86427 4.41796 4.41799C3.86424 4.9717 3.46018 5.65695 3.24365 6.40949C3.02712 7.16203 3.00521 7.95723 3.17998 8.72056C3.35474 9.48388 3.72046 10.1903 4.24285 10.7737C4.76524 11.3571 5.4272 11.7982 6.16667 12.0559V24.9442C5.4272 25.2018 4.76524 25.643 4.24285 26.2264C3.72046 26.8097 3.35474 27.5162 3.17998 28.2795C3.00521 29.0428 3.02712 29.838 3.24365 30.5906C3.46018 31.3431 3.86424 32.0284 4.41796 32.5821C4.97167 33.1358 5.65692 33.5399 6.40946 33.7564C7.162 33.9729 7.9572 33.9948 8.72052 33.8201C9.48385 33.6453 10.1903 33.2796 10.7737 32.7572C11.357 32.2348 11.7982 31.5728 12.0558 30.8334H24.9442C25.2018 31.5728 25.643 32.2348 26.2264 32.7572C26.8097 33.2796 27.5162 33.6453 28.2795 33.8201C29.0428 33.9948 29.838 33.9729 30.5906 33.7564C31.3431 33.5399 32.0283 33.1358 32.5821 32.5821C33.1358 32.0284 33.5398 31.3431 33.7564 30.5906C33.9729 29.838 33.9948 29.0428 33.82 28.2795C33.6453 27.5162 33.2796 26.8097 32.7572 26.2264C32.2348 25.643 31.5728 25.2018 30.8333 24.9442ZM29.2917 6.16671C29.5966 6.16671 29.8947 6.25712 30.1482 6.42652C30.4017 6.59592 30.5993 6.8367 30.716 7.1184C30.8327 7.4001 30.8632 7.71008 30.8037 8.00914C30.7442 8.30819 30.5974 8.58289 30.3818 8.79849C30.1662 9.0141 29.8915 9.16093 29.5924 9.22042C29.2934 9.2799 28.9834 9.24937 28.7017 9.13269C28.42 9.016 28.1792 8.8184 28.0098 8.56488C27.8404 8.31135 27.75 8.01328 27.75 7.70837C27.75 7.2995 27.9124 6.90737 28.2015 6.61825C28.4907 6.32913 28.8828 6.16671 29.2917 6.16671ZM7.70834 6.16671C8.01325 6.16671 8.31132 6.25712 8.56485 6.42652C8.81837 6.59592 9.01597 6.8367 9.13266 7.1184C9.24934 7.4001 9.27987 7.71008 9.22039 8.00914C9.1609 8.30819 9.01407 8.58289 8.79846 8.79849C8.58286 9.0141 8.30816 9.16093 8.00911 9.22042C7.71005 9.2799 7.40007 9.24937 7.11837 9.13269C6.83667 9.016 6.59589 8.8184 6.42649 8.56488C6.25709 8.31135 6.16667 8.01328 6.16667 7.70837C6.16667 7.2995 6.3291 6.90737 6.61822 6.61825C6.90734 6.32913 7.29947 6.16671 7.70834 6.16671ZM7.70834 30.8334C7.40343 30.8334 7.10536 30.743 6.85184 30.5736C6.59831 30.4042 6.40071 30.1634 6.28403 29.8817C6.16734 29.6 6.13681 29.29 6.1963 28.9909C6.25578 28.6919 6.40261 28.4172 6.61822 28.2016C6.83382 27.986 7.10852 27.8391 7.40758 27.7797C7.70663 27.7202 8.01661 27.7507 8.29831 27.8674C8.58001 27.9841 8.82079 28.1817 8.99019 28.4352C9.15959 28.6887 9.25001 28.9868 9.25001 29.2917C9.25001 29.7006 9.08758 30.0927 8.79846 30.3818C8.50935 30.6709 8.11722 30.8334 7.70834 30.8334ZM24.9442 27.75H12.0558C11.8256 27.1035 11.4544 26.5162 10.9691 26.0309C10.4838 25.5456 9.89658 25.1744 9.25001 24.9442V12.0559C9.89658 11.8257 10.4838 11.4545 10.9691 10.9692C11.4544 10.4838 11.8256 9.89661 12.0558 9.25004H24.9442C25.1744 9.89661 25.5456 10.4838 26.0309 10.9692C26.5162 11.4545 27.1034 11.8257 27.75 12.0559V24.9442C27.1034 25.1744 26.5162 25.5456 26.0309 26.0309C25.5456 26.5162 25.1744 27.1035 24.9442 27.75ZM29.2917 30.8334C28.9868 30.8334 28.6887 30.743 28.4352 30.5736C28.1816 30.4042 27.984 30.1634 27.8674 29.8817C27.7507 29.6 27.7201 29.29 27.7796 28.9909C27.8391 28.6919 27.9859 28.4172 28.2015 28.2016C28.4172 27.986 28.6919 27.8391 28.9909 27.7797C29.29 27.7202 29.5999 27.7507 29.8816 27.8674C30.1633 27.9841 30.4041 28.1817 30.5735 28.4352C30.7429 28.6887 30.8333 28.9868 30.8333 29.2917C30.8333 29.7006 30.6709 30.0927 30.3818 30.3818C30.0927 30.6709 29.7005 30.8334 29.2917 30.8334Z" fill="#5956E8"/>
+                </svg>                
+            </div>
+            <div class="info">
+              <h3>Motion Design</h3>
+              <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+            </div>
+          </div>
+         </div>
+       </div>
+     </div>
+    </section>
+  <!-- ========================================
+            Our Services  Section End
+   ============================================ -->
+
+
+  <!-- ========================================
+           Portfolio  Section Start
+   ============================================ -->
+   <section id="portfolio">
+    <div class="container">
+      <div class="portfolio_contain">
+        <h2>Our Work Portfolio</h2>
+        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+      </div>
+      <div class="portfolio_contain-manu">
+        <ul class="portfolio_tabs nav nav-tabs justify-content-center" id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">All</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Graphic Design</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false"> Mobile App </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="web-development-tab" data-bs-toggle="tab" data-bs-target="#web-development-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false"> Web Development </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="web-design-tab" data-bs-toggle="tab" data-bs-target="#web-design-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Web Design</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+            <div class="row gy-4 work_portfolio">
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="portfolio_items">
+                  <img src="./Image/portfolio_1.jpg" alt="image">
+                  <div class="portfolio_info">
+                    <h4>Graphic Design</h4>
+                    <p>See Details <span>&#10132;</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="portfolio_items">
+                  <img src="./Image/Portfolio-2.png" alt="image">
+                  <div class="portfolio_info">
+                    <h4>Graphic Design</h4>
+                    <p>See Details <span>&#10132;</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="portfolio_items">
+                  <img src="./Image/portfolio-3.jpg" alt="image">
+                  <div class="portfolio_info">
+                    <h4>Graphic Design</h4>
+                    <p>See Details <span>&#10132;</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="portfolio_items">
+                  <img src="./Image/portfolio-4.jpg" alt="image">
+                  <div class="portfolio_info">
+                    <h4>Mobile App</h4>
+                    <p>See Details <span>&#10132;</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="portfolio_items">
+                  <img src="./Image/portfolio-5.jpg" alt="image">
+                  <div class="portfolio_info">
+                    <h4>Mobile App</h4>
+                    <p>See Details <span>&#10132;</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="portfolio_items">
+                  <img src="./Image/portfolio-6.jpg" alt="image">
+                  <div class="portfolio_info">
+                    <h4>Mobile App</h4>
+                    <p>See Details <span>&#10132;</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="portfolio_items">
+                  <img src="./Image/portfolio-7.jpg" alt="image">
+                  <div class="portfolio_info">
+                    <h4>Web Development</h4>
+                    <p>See Details <span>&#10132;</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="portfolio_items">
+                  <img src="./Image/portfolio-10.jpg" alt="image">
+                  <div class="portfolio_info">
+                    <h4>Web Development</h4>
+                    <p>See Details <span>&#10132;</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="portfolio_items">
+                  <img src="./Image/portfolio-8.jpg" alt="image">
+                  <div class="portfolio_info">
+                    <h4>Web Development</h4>
+                    <p>See Details <span>&#10132;</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="portfolio_items">
+                  <img src="./Image/portfolio-9.jpg" alt="image">
+                  <div class="portfolio_info">
+                    <h4>Web Design</h4>
+                    <p>See Details <span>&#10132;</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="portfolio_items">
+                  <img src="./Image/portfolio-11.jpg" alt="image">
+                  <div class="portfolio_info">
+                    <h4>Web Design</h4>
+                    <p>See Details <span>&#10132;</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="portfolio_items">
+                  <img src="./Image/portfolio-12.jpg" alt="image">
+                  <div class="portfolio_info">
+                    <h4>Web Design</h4>
+                    <p>See Details <span>&#10132;</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+            <div class="row gy-4">
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="portfolio_items">
+                  <img src="./Image/portfolio_1.jpg" alt="image">
+                  <div class="portfolio_info">
+                    <h4>Graphic Design</h4>
+                    <p>See Details <span>&#10132;</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="portfolio_items">
+                  <img src="./Image/Portfolio-2.png" alt="image">
+                  <div class="portfolio_info">
+                    <h4>Graphic Design</h4>
+                    <p>See Details <span>&#10132;</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="portfolio_items">
+                  <img src="./Image/portfolio-3.jpg" alt="image">
+                  <div class="portfolio_info">
+                    <h4>Graphic Design</h4>
+                    <p>See Details <span>&#10132;</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="portfolio_items">
+                  <img src="./Image/graphic_design.jpg" alt="image">
+                  <div class="portfolio_info">
+                    <h4>Graphic Design</h4>
+                    <p>See Details <span>&#10132;</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+            <div class="row gy-4">
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="portfolio_items">
+                  <img src="./Image/portfolio-4.jpg" alt="image">
+                  <div class="portfolio_info">
+                    <h4>Mobile App</h4>
+                    <p>See Details <span>&#10132;</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="portfolio_items">
+                  <img src="./Image/portfolio-5.jpg" alt="image">
+                  <div class="portfolio_info">
+                    <h4>Mobile App</h4>
+                    <p>See Details <span>&#10132;</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="portfolio_items">
+                  <img src="./Image/portfolio-6.jpg" alt="image">
+                  <div class="portfolio_info">
+                    <h4>Mobile App</h4>
+                    <p>See Details <span>&#10132;</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="portfolio_items">
+                  <img src="./Image/App_design.jpg" alt="image">
+                  <div class="portfolio_info">
+                    <h4>Mobile App</h4>
+                    <p>See Details <span>&#10132;</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="web-development-tab-pane" role="tabpanel" aria-labelledby="web-development-tab" tabindex="0">
+            <div class="row gy-4">
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="portfolio_items">
+                  <img src="./Image/web_developmant.jpg" alt="image">
+                  <div class="portfolio_info">
+                    <h4>Web Development</h4>
+                    <p>See Details <span>&#10132;</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="portfolio_items">
+                  <img src="./Image/portfolio-7.jpg" alt="image">
+                  <div class="portfolio_info">
+                    <h4>Web Development</h4>
+                    <p>See Details <span>&#10132;</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="portfolio_items">
+                  <img src="./Image/portfolio-10.jpg" alt="image">
+                  <div class="portfolio_info">
+                    <h4>Web Development</h4>
+                    <p>See Details <span>&#10132;</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="portfolio_items">
+                  <img src="./Image/portfolio-8.jpg" alt="image">
+                  <div class="portfolio_info">
+                    <h4>Web Development</h4>
+                    <p>See Details <span>&#10132;</span></p>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+          <div class="tab-pane fade" id="web-design-tab-pane" role="tabpanel" aria-labelledby="web-design-tab" tabindex="0">
+            <div class="row gy-4">
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="portfolio_items">
+                  <img src="./Image/portfolio-9.jpg" alt="image">
+                  <div class="portfolio_info">
+                    <h4>Web Design</h4>
+                    <p>See Details <span>&#10132;</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="portfolio_items">
+                  <img src="./Image/portfolio-11.jpg" alt="image">
+                  <div class="portfolio_info">
+                    <h4>Web Design</h4>
+                    <p>See Details <span>&#10132;</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="portfolio_items">
+                  <img src="./Image/portfolio-12.jpg" alt="image">
+                  <div class="portfolio_info">
+                    <h4>Web Design</h4>
+                    <p>See Details <span>&#10132;</span></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="portfolio_items">
+                  <img src="./Image/web_design.jpg" alt="image">
+                  <div class="portfolio_info">
+                    <h4>Web Design</h4>
+                    <p>See Details <span>&#10132;</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+  <!-- ========================================
+            Portfolio Section End
+   ============================================ -->
+
+  <!-- ========================================
+            Team Member Section Start 
+   ============================================ -->
+   <section id="our_expert_team_member">
+     <div class="container">
+      <div class="team_member_contain">
+        <h2>Our Expert Team Member</h2>
+        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+      </div>
+      <div class="team_item">
+        <div class="slider">
+          <div class="left_slider bg_color">
+            <i class="fa-solid fa-chevron-left"></i>
+          </div>
+          <div class="right_side bg_color">
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3  col-sm-6 mb-3">
+            <div class="team_member_img">
+              <img src="./Image/Linkedin Profile.jpg" alt="image">
+              <div class="overly">
+                <h4>Redwan Labib</h4>
+                <p>Graphic Designer</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3  col-sm-6 mb-3">
+            <div class="team_member_img">
+              <img src="./Image/image1.png" alt="image">
+              <div class="overly">
+                <h4>Redwan Labib</h4>
+                <p>App Designer</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-3">
+            <div class="team_member_img">
+              <img src="./Image/DSC_0035.JPG" alt="image">
+              <div class="overly">
+                <h4>Redwan Labib</h4>
+                <p>Web Designer</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-3">
+            <div class="team_member_img">
+              <img src="./Image/image.png" alt="image">
+              <div class="overly">
+                <h4>Redwan Labib</h4>
+                <p>Web Development</p>
+              </div>
+            </div>
+          </div>
+          <ul class="dot">
+            <li></li>
+            <li></li>
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </div>
+     </div>
+   </section>
+  <!-- ========================================
+            Team Member Section End
+   ============================================ -->
+
+  <!-- ========================================
+           Our Customer Review Section Start
+   ============================================ -->
+   <section id="customer_review">
+    <div class="container">
+      <div class="our_customer_review">
+        <h2>We Care About Our Customer Experience Too</h2>
+        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+      </div>
+      <div class="review_contain">
+        <div class="slider">
+          <div class="left_slider bg_color">
+            <i class="fa-solid fa-chevron-left"></i>
+          </div>
+          <div class="right_side bg_color">
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-sm-6">
+            <div class="review_items">
+              <img src="./Image/review_items.JPG" alt="image">
+               <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+               </div>
+               <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+               <h4>Mahid Ahmed</h4>
+               <span>UX Designer</span>
+               <div class="quot">
+                 <img src="./Image/quate.png" alt="image">
+               </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="review_items">
+              <img src="./Image/review_items.JPG" alt="image">
+               <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+               </div>
+               <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+               <h4>Mahid Ahmed</h4>
+               <span>UX Designer</span>
+               <div class="quot">
+                <img src="./Image/quate.png" alt="image">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="review_items">
+              <img src="./Image/review_items.JPG" alt="image">
+               <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+               </div>
+               <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+               <h4>Mahid Ahmed</h4>
+               <span>UX Designer</span>
+               <div class="quot">
+                <img src="./Image/quate.png" alt="image">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="review_items">
+              <img src="./Image/review_items.JPG" alt="image">
+               <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+               </div>
+               <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+               <h4>Mahid Ahmed</h4>
+               <span>UX Designer</span>
+               <div class="quot">
+                <img src="./Image/quate.png" alt="image">
+              </div>
+            </div>
+          </div>
+          <div class="dot_slider">
+            <ul class="dot">
+              <li></li>
+              <li></li>
+              <li class="active"></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+  <!-- ========================================
+           Our Customer Review Section End
+   ============================================ -->
+
+
+  <!-- ========================================
+           Our Letest News Section Start
+   ============================================ -->
+   <section id="our_letest_news">
+    <div class="container">
+      <div class="letest_news">
+        <h2>Our Letest News</h2>
+        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-sm-6">
+          <div class="letest_contain">
+            <img src="./Image/letest_news.png" alt="image">
+            <div class="user">
+              <div class="admin">
+                <span><i class="fa-regular fa-user"></i></span>
+                <span class="left">Admin</span>
+              </div>
+              <div class="date">
+                <span>
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6 5V1M14 5V1M5 9H15M5 13H15M3 19H17C17.5304 19 18.0391 18.7893 18.4142 18.4142C18.7893 18.0391 19 17.5304 19 17V5C19 4.46957 18.7893 3.96086 18.4142 3.58579C18.0391 3.21071 17.5304 3 17 3H3C2.46957 3 1.96086 3.21071 1.58579 3.58579C1.21071 3.96086 1 4.46957 1 5V17C1 17.5304 1.21071 18.0391 1.58579 18.4142C1.96086 18.7893 2.46957 19 3 19Z" stroke="#5D5D5D" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    
+                </span>
+                <span class="left">07/11/2021</span>
+              </div>
+            </div>
+            <h4>Business Plans That Fit Your Best Blog</h4>
+            <p>There are many variations of passages of Lorem Ipsum , but the majority have suffered alteration in some form.</p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="letest_contain">
+            <img src="./Image/letest_news.png" alt="image">
+            <div class="user">
+              <div class="admin">
+                <span><i class="fa-regular fa-user"></i></span>
+                <span class="left">Admin</span>
+              </div>
+              <div class="date">
+                <span>
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6 5V1M14 5V1M5 9H15M5 13H15M3 19H17C17.5304 19 18.0391 18.7893 18.4142 18.4142C18.7893 18.0391 19 17.5304 19 17V5C19 4.46957 18.7893 3.96086 18.4142 3.58579C18.0391 3.21071 17.5304 3 17 3H3C2.46957 3 1.96086 3.21071 1.58579 3.58579C1.21071 3.96086 1 4.46957 1 5V17C1 17.5304 1.21071 18.0391 1.58579 18.4142C1.96086 18.7893 2.46957 19 3 19Z" stroke="#5D5D5D" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    
+                </span>
+                <span class="left">07/11/2021</span>
+              </div>
+            </div>
+            <h4>Business Plans That Fit Your Best Blog</h4>
+            <p>There are many variations of passages of Lorem Ipsum , but the majority have suffered alteration in some form.</p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="letest_contain">
+            <img src="./Image/letest_news.png" alt="image">
+            <div class="user">
+              <div class="admin">
+                <span><i class="fa-regular fa-user"></i></span>
+                <span class="left">Admin</span>
+              </div>
+              <div class="date">
+                <span>
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6 5V1M14 5V1M5 9H15M5 13H15M3 19H17C17.5304 19 18.0391 18.7893 18.4142 18.4142C18.7893 18.0391 19 17.5304 19 17V5C19 4.46957 18.7893 3.96086 18.4142 3.58579C18.0391 3.21071 17.5304 3 17 3H3C2.46957 3 1.96086 3.21071 1.58579 3.58579C1.21071 3.96086 1 4.46957 1 5V17C1 17.5304 1.21071 18.0391 1.58579 18.4142C1.96086 18.7893 2.46957 19 3 19Z" stroke="#5D5D5D" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    
+                </span>
+                <span class="left">07/11/2021</span>
+              </div>
+            </div>
+            <h4>Business Plans That Fit Your Best Blog</h4>
+            <p>There are many variations of passages of Lorem Ipsum , but the majority have suffered alteration in some form.</p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+  <!-- ========================================
+           Our Letest News Section End
+   ============================================ -->
+  </main>
+
+    <!-- ========================================
+          Footer Section Start
+   ============================================ -->
+   <footer id="footer">
+    <div class="container">
+      <div class="footer_item">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="footer_info">
+              <img src="./Image/Logo.png" alt="logo">
+              <p>There are many variations of passages of Lorem Ipsum , but the majority have suffered alteration in some form.</p>
+              <div class="icon">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-6">
+            <div class="info">
+              <h4>Company</h4>
+              <ul>
+                <li>
+                  <a href="#">About Us</a>
+                </li>
+                <li>
+                  <a href="#">Work</a>
+                </li>
+                <li>
+                  <a href="#">Latest News</a>
+                </li>
+                <li>
+                  <a href="#">Careers</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-6">
+            <div class="info">
+              <h4>Product</h4>
+              <ul>
+                <li>
+                  <a href="#">Prototype</a>
+                </li>
+                <li>
+                  <a href="#">Plans & Pricing</a>
+                </li>
+                <li>
+                  <a href="#">ustomers</a>
+                </li>
+                <li>
+                  <a href="#">Integrations</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-6">
+            <div class="info">
+              <h4>Support</h4>
+              <ul>
+                <li>
+                  <a href="#">Help Desk</a>
+                </li>
+                <li>
+                  <a href="#">Sales</a>
+                </li>
+                <li>
+                  <a href="#">Become a Partner</a>
+                </li>
+                <li>
+                  <a href="#">Developers</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 col-sm-6">
+            <div class="info">
+              <h4>Contact</h4>
+              <ul>
+                <li>
+                  <a href="#">524 Broadway , NYC</a>
+                </li>
+                <li>
+                  <a href="#">+1 777 - 978 - 5570</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p style="text-align: center; margin: 20px auto">Copyright © 2024 - Redwan Labib</p>
+
+    </div>
+   </footer>
+    <!-- ========================================
+          Footer Section End
+   ============================================ -->
+
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

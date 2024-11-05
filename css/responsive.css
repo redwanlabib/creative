@@ -1,0 +1,182 @@
+/* @media (max-width:992px) {
+    .Contact_us{
+        display: none;
+    }
+    
+} */
+@media (min-width:1200px){
+    .portfolio_items {
+        width: 270px;
+        height: 319px;
+    }
+}
+@media (min-width:992px) and (max-width:1199px){
+    .portfolio_items {
+        width: 100%;
+        height: 319px;
+       } 
+}
+@media (min-width:768px) and (max-width: 991px){
+    .Contact_us{
+        display: none;
+    }
+    .portfolio_items {
+        width: 100%;
+        height: 319px;
+    }
+    .portfolio_tabs li.nav-item{
+        padding-bottom: 30px;
+       }
+}
+@media (min-width:576px) and (max-width:767px){
+    .Contact_us{
+        display: none;
+    }
+    .portfolio_items {
+        width: 100%;
+        height: 319px;
+        margin: 0 auto;
+       }  
+       .portfolio_tabs li.nav-item{
+        padding-bottom: 25px;
+       }
+    }
+@media (max-width:576px){
+    .Contact_us{
+        display: none;
+    }
+    .portfolio_items {
+        width: 100%;
+        height: 425px;
+        /* margin: 0 auto; */
+       }  
+       .portfolio_tabs li.nav-item{
+        padding-bottom: 25px;
+       }
+
+/* ========================================
+            Common Class Start
+ ============================================ */
+    section {
+        padding-top: 30px;
+    }
+    h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    h4 {
+        font-size: 17px;
+        font-weight: 600;
+    }
+    p{
+        font-size: 12px;
+        line-height: 22px;
+    }
+    /* ========================================
+             Common Class End
+    ============================================ */
+
+       /* ========================================
+              Bennar Section Start
+     ============================================ */
+     #bg_color {
+        padding: 45px 0;
+    }
+    .left_side p {
+        padding: 20px 0; 
+    }
+     /* ========================================
+             Bennar Section End
+    ============================================ */
+
+    /* ========================================
+              Our Services Section Start
+   ============================================ */
+   #service .text_header {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    #service .text_header p {
+        padding-top: 0px;
+    }
+    #service .service_items h3 {
+        padding-top: 15px;
+        padding-bottom: 5px;
+    }
+    #service .service_items {
+        padding: 20px 30px;
+    }
+   /* ========================================
+              Our Services Section End
+   ============================================ */
+
+   /* ========================================
+              Portfolio Section Start
+   ============================================ */
+   #portfolio .portfolio_contain {
+        width: 100%;
+        padding-bottom: 15px;
+    }
+    #portfolio .portfolio_contain p {
+        padding-top: 5px;
+    }
+   /* ========================================
+              Portfolio Section End
+   ============================================ */
+
+   /* ========================================
+           Team Member Section Start
+   ============================================ */
+   #our_expert_team_member .team_member_contain {
+	width: 100%;
+	padding-bottom: 15px;
+   }
+   #our_expert_team_member .team_member_contain h2 {
+	padding-bottom: 5px;
+    }
+   /* ========================================
+           Team Member Section End
+   ============================================ */
+
+   /* ==========================================
+        Our Customer Review Section Start
+   ============================================ */
+   .our_customer_review {
+	width: 100%;
+	padding-bottom: 10px;
+    }
+    .our_customer_review h2 {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+   /* ==========================================
+        Our Customer Review Section End
+   ============================================ */
+
+   /* ===========================================
+           Our Letest News Section Start   
+    ============================================ */
+    .letest_news {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+    .letest_news h2 {
+        padding-bottom: 5px;
+    }
+    .letest_contain a {
+        font-size: 15px;
+    }
+    .letest_contain {
+        padding: 17px 19px 20px 19px;
+        margin-bottom: 15px;
+    }
+    /* ===========================================
+           Our Letest News Section End  
+    ============================================ */
+}
